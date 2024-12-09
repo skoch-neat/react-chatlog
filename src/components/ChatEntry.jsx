@@ -1,6 +1,6 @@
 import './ChatEntry.css';
-import propTypes from 'prop-types';
-import TimeStamp from './TimeStamp'
+import PropTypes from 'prop-types';
+import TimeStamp from './TimeStamp';
 
 const ChatEntry = (props) => {
   return (
@@ -18,9 +18,10 @@ const ChatEntry = (props) => {
 };
 
 ChatEntry.propTypes = {
-  sender: propTypes.string.isRequired,
-  body: propTypes.string.isRequired,
-  timeStamp: propTypes.string.isRequired,
+  id: PropTypes.number,
+  sender: PropTypes.string.isRequired,
+  body: PropTypes.string.isRequired,
+  timeStamp: PropTypes.string.isRequired,
 };
 
 export default ChatEntry;
