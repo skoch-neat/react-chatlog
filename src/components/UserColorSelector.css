@@ -1,0 +1,21 @@
+.color-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.color-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.color-button:hover {
+  filter: brightness(1.2);
+}
+
+.color-button.selected {
+  border: 2px solid white;
+}

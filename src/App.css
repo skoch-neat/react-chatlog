@@ -17,7 +17,7 @@
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 5rem;
-  padding-top: 10rem;
+  padding-top: 15rem;
 }
 
 #App h1 {
@@ -35,7 +35,7 @@
   line-height: 0.5em;
   border-radius: 10px;
   color: black;
-  font-size:0.8em;
+  font-size: 0.8em;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -71,4 +71,15 @@
 
 .purple {
   color: purple
+}
+
+.subheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.likes {
+  align-self: flex-end;
 }
